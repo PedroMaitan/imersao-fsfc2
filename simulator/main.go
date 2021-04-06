@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/PedroMaitan/imersao-fsfc2/application/infra/kafka"
 	kafka2 "github.com/PedroMaitan/imersao-fsfc2/application/kafka"
-	"github.com/PedroMaitan/imersao-fsfc2/infra/kafka"
 	ckafka "github.com/confluentinc/confluent-kafka-go/kafka"
 	"github.com/joho/godotenv"
 )
